@@ -11,12 +11,12 @@ public class SalaryCalculator {
         double bonus=200;
         int quota=10;
 
-        System.out.println("How many sales did the employee get this week");
+        System.out.println("How many sales did the employee get this week: ");
         Scanner scanner= new Scanner(System.in);
         int sales = scanner.nextInt();
 
         if(sales > quota){
-            salary = salary+ bonus;
+            salary = salary + bonus;
         }
 
         System.out.println("SALARY: " +salary);

@@ -1,6 +1,7 @@
 /*All sales People are expected to make at least 10 sales each week.
 * for those who do,they receive a congratulations message.
 * For those who don't they are informed of how many sales they were short.*/
+
 package decision_structure;
 import java.util.Scanner;
 public class QuotaCalculator {
@@ -10,7 +11,7 @@ public class QuotaCalculator {
 
         System.out.println("Enter the number of sales you made");
         Scanner scanner=new Scanner(System.in);
-        //read, scan, or parse the next token of an input as int.
+           //read, scan, or parse the next token of an input as int.
         int sales = scanner.nextInt();
         scanner.close();
 
